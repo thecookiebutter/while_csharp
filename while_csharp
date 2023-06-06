@@ -1,0 +1,28 @@
+using System;
+
+namespace Course
+{
+    class Program
+    {
+        static void Main()
+        {
+            // Variáveis
+            int num, i = 1;
+
+            // Saída solicitando a entrada do usuário
+            Console.Write("Digite um número inteiro positivo: ");
+
+            // Entrada do usuário
+            num = int.Parse(Console.ReadLine());
+
+            // Enquanto o número de iterações for menor ou igual ao número informado pelo usuário, execute a função
+            while (i <= num)
+            {
+                Console.WriteLine(i);
+                // Aumenta o número de iterações
+                i++;
+            }
+
+        }
+    }
+}
